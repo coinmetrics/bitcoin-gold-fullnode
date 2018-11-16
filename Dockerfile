@@ -15,4 +15,4 @@ RUN curl -L https://github.com/BTCGPU/BTCGPU/releases/download/v${VERSION}/bitco
 RUN useradd -m -u 1000 -s /bin/bash runner
 USER runner
 
-ENTRYPOINT ["bitcoind"]
+ENTRYPOINT ["bgoldd"]
