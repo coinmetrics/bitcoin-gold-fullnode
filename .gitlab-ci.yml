@@ -1,0 +1,12 @@
+image: docker:latest
+services:
+- docker:dind
+
+docker_image:
+  stage: build
+  script:
+  - ./build.sh
+  tags:
+  - shared
+  - linux
+  - docker
