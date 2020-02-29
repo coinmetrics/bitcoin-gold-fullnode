@@ -1,16 +1,16 @@
 # Bitcoin Gold docker image
 
-[![Docker Repository on Quay](https://quay.io/repository/coinmetrics/fullnode-bitcoin-gold/status "Docker Repository on Quay")](https://quay.io/repository/coinmetrics/fullnode-bitcoin-gold)
+This is unofficial Bitcoin Gold docker image.
+
+It is being used internally at Coin Metrics, and is published in the hope it will be useful, but without any warranty. No support is available. You are using it at your own risk.
 
 ## Using image
+
+[![Docker Repository on Quay](https://quay.io/repository/coinmetrics/fullnode-bitcoin-gold/status "Docker Repository on Quay")](https://quay.io/repository/coinmetrics/fullnode-bitcoin-gold)
 
 ```
 docker pull quay.io/coinmetrics/fullnode-bitcoin-gold:<version>
 ```
-
-## Support
-
-This image is being used internally at Coin Metrics. No support is available. You are using it at your own risk.
 
 ## Security
 
