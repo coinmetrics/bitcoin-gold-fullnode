@@ -10,7 +10,7 @@ RUN set -ex; \
 
 ARG VERSION
 
-RUN curl -L https://github.com/BTCGPU/BTCGPU/releases/download/v${VERSION}/bitcoin-gold-${VERSION}-x86_64-linux-gnu.tar.gz | tar -xz --strip-components=1 -C /
+RUN curl -L https://github.com/BTCGPU/BTCGPU/archive/v${VERSION}.tar.gz | tar -xz --strip-components=1 -C /
 
 RUN useradd -m -u 1000 -s /bin/bash runner
 USER runner
